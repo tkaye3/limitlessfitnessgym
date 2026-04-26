@@ -27,12 +27,12 @@
   <meta name="twitter:site" content="@username">
   <meta name="twitter:creator" content="@creator_username">
   <meta name="twitter:image" content="https://cdn-icons-png.flaticon.com/512/733/733635.png">
-
+<title>Limitless Fitness - Transform your Life!</title>
 </head>
 
 <body>
   <!-- add a skip link that skips to the main content -->
-  <a href="skip-to-content-link" href="#main">Skip to Content</a>
+  <a href="#main-content">Skip to Content</a>
   <!-- add correct heading levels -->
   <header>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#007BFF" stroke-linecap="round"
@@ -47,12 +47,12 @@
     </svg>
     <h1>Transform Your Life at Limitless Fitness</h1>
     <p>Unleash your strength, embrace the challenge, and join a community dedicated to your fitness journey.</p>
-    <a href="#main">Join Now</a>
+    <a href>Join Now</a>
     <!-- add alt text where necessary -->
     <!-- add responsive images for resolution switching -->
     <picture>
-      <source media="(min-width: 768w)" srcset="images/facility-768w.jpg">
-      <source media="(max-width: 320w)" srcset="images/facility-320w.jpg">
+      <source media="(min-width: 768px)" srcset="images/facility-768w.jpg">
+      <source media="(max-width: 320px)" srcset="images/facility-320w.jpg">
       <img src="images/facility.jpg" alt="Limitless facility with treadmills">
     </picture>
 
@@ -68,7 +68,7 @@
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
-  <main>
+  <main id="main-content">
     <section>
       <h2 id="about-us">About Us</h2>
       <p>Welcome to Limitless Fitness, where fitness meets community. Our state-of-the-art facility is designed to
@@ -97,8 +97,8 @@
       <!-- add alt text where necessary -->
       <!-- add responsive images for resolution switching -->
       <picture>
-        <source media="(min-width: 768w)" srcset="images/classes-768w.jpg">
-        <source media="(max-width: 320w)" srcset="images/classes-320w.jpg">
+        <source media="(min-width: 768px)" srcset="images/classes-768w.jpg">
+        <source media="(max-width: 320px)" srcset="images/classes-320w.jpg">
         <img src="images/classes.jpg" alt="Limitless students in a class lifting weights.">
       </picture>
     </section>
@@ -113,8 +113,8 @@
       <!-- add alt text where necessary -->
       <!-- add responsive images for resolution switching -->
       <picture>
-        <source media="(min-width: 768w)" srcset="images/dumbells-768w.jpg">
-        <source media="(max-width: 320w)" srcset="images/dumbells-320w.jpg">
+        <source media="(min-width: 768px)" srcset="images/dumbells-768w.jpg">
+        <source media="(max-width: 320px)" srcset="images/dumbells-320w.jpg">
         <img src="images/dumbells.jpg" alt="A row of Limitless dumbells.">
       </picture>
     </section>
@@ -132,11 +132,11 @@
         <!--add accessibility to the form-->
         <form>
           <label for="full-name">Full Name<span class="required">*</span></label>
-          <input type="text" id="full-name" name="full_name" required />
+          <input type="text" id="full-name" name="full_name" required>
           <label for="email">Email Address<span class="required">*</span></label>
-          <input type="email" id="email" name="email" required />
+          <input type="email" id="email" name="email" required>
           <label for="phone">Phone Number<span class="required">*</span></label>
-          <input type="tel" id="phone" name="phone" required />
+          <input type="tel" id="phone" name="phone" required>
           <h3>Membership Type</h3>
           <p>Select a Membership Option</p>
           <input type="radio" id="monthly" name="membership" value="monthly membership">
@@ -148,7 +148,7 @@
           <label for="message">Tell us about your fitness goals:<span class="required">*</span></label>
           <textarea is="message" name="message" required></textarea>
 
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Submit">
         </form>
       </section>
     </section>
